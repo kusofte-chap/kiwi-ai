@@ -1,42 +1,83 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "tailwindcss";
+
+@theme {
+  --color-ai-primary: #83C427;
+  --color-ai-secondary: #5E9C27;
+  --color-ai-tertiary: #4E9424;
+  --banner-gradient: linear-gradient(358deg, #FFF 1.83%, rgba(222, 244, 179, 0.65) 98.21%), #FFF;
+  --btn-box: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --team-box: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  --us-gradient: linear-gradient(180deg, #D3DAC8 0%, rgba(222, 244, 179, 0.65) 100%);
+  --plan-box: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  --feature-box:0px 0px 57px 0px rgba(0, 0, 0, 0.15);
+  --bg-from: #A3D06B;
+  --bg-to: #D9E8C1;
+  --wave-path: polygon(0 0, 100% 0, 100% 80%, 90% 90%, 75% 85%, 50% 95%, 25% 85%, 10% 90%, 0 80%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 html,
 body {
+  width: 100%;
   max-width: 100vw;
+  height:100%;
   overflow-x: hidden;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body > * {
+  font-family: "Mukta Malar", "Mukta Malar Fallback", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.banner {
+  border-radius: 71px;
+  border: 0.5px solid #9E9E9E;
+  background: linear-gradient(358deg, #FFF 1.83%, rgba(222, 244, 179, 0.65) 98.21%), #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
+}
+.us {
+  border-radius: 50px;
+  background: linear-gradient(180deg, #D3DAC8 0%, rgba(222, 244, 179, 0.65) 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.logo-text{
+  background: linear-gradient(270deg, #83C427 26.48%, #5E9C27 105.29%, #4E9424 105.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Mukta Malar";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.22%; /* 48.106px */
+  letter-spacing: 0.48px;
+}
+
+.wave-bg {
+  background: linear-gradient(to bottom, #A9D5A0, #C1E1A6); /* 调整为更接近图片的渐变 */
+  clip-path: polygon(
+    0 5%, 10% 0, 25% 5%, 40% 0, 50% 5%, 60% 0, 75% 5%, 90% 0, 100% 5%, /* 顶部波浪 */
+    100% 95%, 90% 100%, 75% 95%, 60% 100%, 50% 95%, 40% 100%, 25% 95%, 10% 100%, 0 95% /* 底部波浪 */
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1229px; /* 确保高度足够显示波浪 */
+}
+
+.logo-header-text {
+  font-family: "Mukta Malar";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.22%; 
+  letter-spacing: 0.3px;
+  background: linear-gradient(270deg, #83C427 26.48%, #5E9C27 105.29%, #4E9424 105.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
