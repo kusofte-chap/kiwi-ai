@@ -63,12 +63,12 @@ function FeatureItem({ data, className }: { data: IMackData, className: string }
 
 export default function MoreFeature() {
     return (
-        <div className="w-[1440px] h-[1230px] mx-auto bg-[url(/section-5.png)] bg-[position:start] bg- bg-no-repeat mt-[260px]">
-            <div className="pt-[230px] pb-[203px] px-[115px] flex flex-col gap-8">
+        <div className="w-[1248px] h-[1230px] mx-auto bg-[url(/section-5.png)] bg-[position:center] bg-no-repeat mt-[100px]">
+            <div className="pt-[230px] pb-[80px] px-[100px] flex flex-col gap-8">
                 <div className="grid grid-cols-2 gap-8 items-center">
-                    <div className="flex flex-col items-s">
-                        <h3 className="text-[46px] font-bold leading-[46px] text-white">More Features</h3>
-                        <p className="text-[18px] font-medium text-white">
+                    <div className="flex flex-col">
+                        <h3 className="text-[48px] font-bold text-white">More Features</h3>
+                        <p className="text-[18px] font-normal text-white">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                             ullamco laboris nisi ut aliquip ex ea commodo consequat.

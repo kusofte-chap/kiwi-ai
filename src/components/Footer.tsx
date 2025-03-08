@@ -11,7 +11,7 @@ import LanguageDropdown from './LngDropdown'
 
 export default function Footer() {
     return (
-        <div className='flex justify-center bg-[#DEF4B370] w-full pt-[110px] pl-[60px] pr-[159px] gap-[60px] mt-[153px] pb-[60px]'>
+        <div className='flex justify-center bg-[#DEF4B370] w-full pt-[110px] pl-[60px] pr-[159px] gap-[60px] mt-[148px] pb-[60px]'>
             <div className='max-w-[1440px]'>
                 <div className='flex justify-center gap-12'>
                     <div className='flex-3 flex flex-col'>
@@ -23,7 +23,7 @@ export default function Footer() {
                                 Kiwi AI
                             </p>
                         </div>
-                        <p className='text-[14px] text-[#8F90A6] font-noraml leading-[31px] font-LuFa mt-4 mb-7'>
+                        <p className='text-[16px] text-[#8F90A6] font-normal leading-[28px] font-LuFa mt-4 mb-7'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
@@ -60,28 +60,28 @@ export default function Footer() {
                     </div>
                     <div className='flex-1 flex flex-col'>
                         <h3 className='text-[20px] text-[#110229] font-semibold leading-9'>Take a tour</h3>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Features</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Partners</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Pricing</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Product</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Support</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Features</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Partners</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Pricing</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Product</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Support</p>
                     </div>
                     <div className='flex-1 flex flex-col'>
                         <h3 className='text-[20px] text-[#110229] font-semibold leading-9'>Our Company</h3>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>About Us</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Agents</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Blog</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Media</p>
-                        <p className='text-[18px] font-normal text-[#110229] leading-[52px] font-Lufga'>Contact Us</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>About Us</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Agents</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Blog</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Media</p>
+                        <p className='text-[16px] font-normal text-[#110229] leading-[48px] font-Lufga'>Contact Us</p>
                     </div>
                     <div className='flex-2 flex flex-col'>
                         <h3 className='text-[20px] text-[#110229] font-semibold leading-9'>Subscribe</h3>
-                        <p className='text-[14px] font-normal text-[#8F90A6] leading-[52px] font-Lufga'>
+                        <p className='text-[14px]  text-[#8F90A6] leading-[48px] font-normal'>
                             Subscribe to get latest property, blog news from us
                         </p>
-                        <div className='flex items-center bg-white rounded-[15px] border-2 border-[#D0D0E3] px-[15px] py-3 gap-2'>
+                        <div className='flex items-center bg-white rounded-[15px] border-[1.5px] border-[#D0D0E3] px-[15px] py-3 gap-2 mt-2'>
                             <input type='email' placeholder='Email Address'
-                                className='flex-1 bg-transparent text-[#8F90A6] text-14px font-LuFa border-0 outline-0'
+                                className='flex-1 bg-transparent text-[#110229] text-[16px] border-0 outline-0 placeholder:text-[16px] placeholder:text-[#8F90A6]'
                             />
                             <div className='flex-shrink-0 w-[34px] h-[34px] flex items-center justify-center bg-[#4E9424] rounded-full'>
                                 <RightArrowIcon />
@@ -92,9 +92,6 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='flex items-center justify-end'>
-                    <div className='flex items-center justify-center w-8 h-8'>
-                        <LngIcon />
-                    </div>
                     <LanguageDropdown />
                 </div>
             </div>

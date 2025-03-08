@@ -38,9 +38,9 @@ function PlanItem({ data }: { data: IMackData }) {
 
 export default function Plans() {
     return (
-        <div className='mt-40 flex justify-center'>
+        <div className='mt-32 flex justify-center'>
             <div className='w-full max-w-[1190px] flex flex-col gap-[69px]'>
-                <h2 className='h-[68px] text-[48px] text-center tracking-[9.6px] font-bold text-ai-primary'>
+                <h2 className='h-[68px] text-[38px] text-center tracking-[9px] font-medium text-ai-primary'>
                     PLANS
                 </h2>
                 <div className='flex gap-[84px] items-center justify-between'>

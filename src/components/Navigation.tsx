@@ -2,6 +2,8 @@
 
 import React from 'react'
 import ArrowDownSvg from '@/src/assets/icon/arrow-down.svg'
+import { Button } from './ui/button';
+import HeaderNavigation from './Header';
 
 const navigation = [
     { name: 'Home', current: false },
@@ -23,14 +25,14 @@ function GroupDropdown() {
         <div className='flex items-center gap-4'>
             {
                 navigation.map(item => (
-                    <a
+                    <Button
                         key={item.name}
-                        type='button'
-                        className='flex items-center gap-2 decoration-none'
+                        variant='link'
+                        className='text-xl font-medium tracking-wide text-ai-secondary capitalize hover:text-ai-primary'
                     >
-                        <span className='text-[25px] font-bold tracking-wide text-ai-primary'>{item.name}</span>
-                        <Triangle />
-                    </a>
+                        {/* <span className='text-[25px] font-bold tracking-wide text-ai-primary'>{item.name}</span> */}
+                        {item.name}
+                    </Button>
                 ))
             }
         </div>
@@ -39,21 +41,26 @@ function GroupDropdown() {
 
 export default function Navigation() {
     return (
-        <div className='flex items-center justify-between px-[86px]'>
+        <div className='flex items-center justify-between px-9 h-20'>
             <div className='flex-shrink-0 flex items-center gap-1.5'>
                 <img src="/logo.png" alt="logo" className='w-11 h-11 object-center object-cover select-none' />
                 <p className='logo-header-text'>
                     Kiwi AI
                 </p>
             </div>
-            <GroupDropdown />
-            <div className='flex-shrink-0 flex items-center gap-12'>
-                <button className='text-ai-primary text-[25px] tracking-wide font-bold'>
+            <HeaderNavigation />
+            <div className='flex-shrink-0 flex items-center gap-2'>
+                <Button
+                    variant="ghost"
+                    className='text-ai-secondary text-xl tracking-wide font-normal hover:text-ai-secondary'
+                >
                     Join us
-                </button>
-                <button className='w-[178px] h-11 rounded-full bg-ai-primary text-white text-[25px] tracking-wide font-bold'>
+                </Button>
+                <Button
+                    className='w-28 h-9 bg-ai-primary text-white text-[18px] tracking-wide font-medium hover:bg-ai-secondary'
+                >
                     Sign up
-                </button>
+                </Button>
             </div>
         </div>
     )

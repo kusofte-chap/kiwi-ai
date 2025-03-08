@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 export default function Page() {
   return (
     <div className='flex flex-col items-center'>
-      <div className='w-full max-w-[1440px] pt-[60px] pb-10'>
+      <div className='w-full max-w-[1248px] mx-auto'>
         <Navigation />
         <Banner />
         <TeamMember />
