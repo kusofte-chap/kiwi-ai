@@ -29,7 +29,7 @@ export default function FQA() {
 
     return (
         <div className='w-full max-w-[1190px] flex flex-col mt-32 gap-12'>
-            <h2 className='h-[68px] text-[42px] text-center tracking-[9px] font-medium text-ai-primary'>
+            <h2 className='h-[68px] text-[42px] text-center tracking-[2px] font-medium text-ai-primary uppercase'>
                 FAQs
             </h2>
             <div className=''>

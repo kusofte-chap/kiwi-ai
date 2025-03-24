@@ -78,7 +78,7 @@ export default function Plans() {
     return (
         <div className='mt-32 flex justify-center'>
             <div className='w-full max-w-[1190px] flex flex-col gap-[69px]'>
-                <h2 className='h-[68px] text-[40px] text-center tracking-[2px] font-medium text-ai-primary'>
+                <h2 className='h-[68px] text-[40px] text-center tracking-[2px] font-medium text-ai-primary uppercase'>
                     Subscription Plans
                 </h2>
                 <div className='flex gap-[84px] items-center justify-between'>

@@ -56,11 +56,11 @@ function FeatureItem({ data, className }: { data: IMackData, className: string }
 export default function MoreFeature() {
     return (
         <div className="w-[1248px] h-[1230px] mx-auto bg-[url(/section-5.png)] bg-[position:center] bg-no-repeat mt-[168px]">
-            <div className="pt-[230px] pb-[80px] px-[100px] flex flex-col gap-8">
+            <div className="pt-[200px] pb-[80px] px-[100px] flex flex-col gap-8">
                 <div className="grid grid-cols-3 gap-7 items-center">
                     <div className="flex flex-col col-span-2">
-                        <h3 className="text-[62px] font-bold text-white leading-0.5">Kiwi</h3>
-                        <h3 className="text-[58px] font-bold text-white">We Are The Best Choice</h3>
+                        <h3 className="text-[60px] font-bold text-white">Kiwi</h3>
+                        <h3 className="text-[60px] font-bold text-white">We Are The Best Choice</h3>
                         <p className="text-[24px] font-normal text-white">
                             Boost productivity, unlock insights, and innovate smarter with Kiwi AI—your all-in-one suite of intelligent tools. Work faster, achieve more!
                         </p>
