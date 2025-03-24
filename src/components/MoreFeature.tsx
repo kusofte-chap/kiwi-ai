@@ -59,8 +59,9 @@ export default function MoreFeature() {
             <div className="pt-[230px] pb-[80px] px-[100px] flex flex-col gap-8">
                 <div className="grid grid-cols-3 gap-7 items-center">
                     <div className="flex flex-col col-span-2">
-                        <h3 className="text-[48px] font-bold text-white">Kiwi: We Are The Best Choice</h3>
-                        <p className="text-[18px] font-normal text-white">
+                        <h3 className="text-[62px] font-bold text-white leading-0.5">Kiwi</h3>
+                        <h3 className="text-[58px] font-bold text-white">We Are The Best Choice</h3>
+                        <p className="text-[24px] font-normal text-white">
                             Boost productivity, unlock insights, and innovate smarter with Kiwi AI—your all-in-one suite of intelligent tools. Work faster, achieve more!
                         </p>
                     </div>

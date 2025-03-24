@@ -9,7 +9,7 @@ export default function Banner() {
                     <h2 className='bannerText'>
                         Kiwi AI
                     </h2>
-                    <p className='text-center text-[24px] font-light text-[#134815] mt-9 mb-12'>
+                    <p className='text-center text-[26px] font-light text-[#134815] mt-9 mb-12'>
                         Unlock the Power of AI with Kiwi AI !
                     </p>
                     <Button className='w-[186px] bg-ai-primary hover:bg-ai-secondary py-3 h-14 text-white text-[20px] tracking-wide shadow-(--btn-box)'>
