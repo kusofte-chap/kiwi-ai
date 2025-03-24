@@ -1,11 +1,11 @@
 
 import Navigation from '../components/Navigation'
 import Banner from '../components/Banner'
-import TeamMember from '../components/TeamMember'
 import ContactUs from '../components/ContactUs'
 import Plans from '../components/Plans'
 import MoreFeature from '../components/MoreFeature'
 import Footer from '../components/Footer'
+import FQA from '../components/QA'
 
 export default function Page() {
   return (
@@ -13,10 +13,10 @@ export default function Page() {
       <div className='w-full max-w-[1248px] mx-auto'>
         <Navigation />
         <Banner />
-        <TeamMember />
-        <ContactUs />
         <Plans />
+        <ContactUs />
         <MoreFeature />
+        <FQA />
       </div>
       <Footer />
     </div>

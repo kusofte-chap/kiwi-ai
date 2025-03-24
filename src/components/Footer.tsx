@@ -5,7 +5,6 @@ import XLogo from '@/src/assets/icon/X.svg'
 import InsLogo from '@/src/assets/icon/ins.svg'
 import InLogo from '@/src/assets/icon/in.svg'
 import RightArrowIcon from '@/src/assets/icon/right-arrow.svg'
-import LngIcon from '@/src/assets/icon/lng.svg'
 import LanguageDropdown from './LngDropdown'
 
 
@@ -24,8 +23,8 @@ export default function Footer() {
                             </p>
                         </div>
                         <p className='text-[16px] text-[#8F90A6] font-normal leading-[28px] font-LuFa mt-4 mb-7'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Smarter, Faster, Better<br />
+                            Discover the future today!
                         </p>
                         <div className='flex items-center gap-7'>
                             <a
